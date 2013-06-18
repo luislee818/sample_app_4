@@ -6,6 +6,9 @@ gem 'rails', '4.0.0.rc2'
 group :development, :test do
 	gem 'sqlite3', '1.3.7'
 	gem 'rspec-rails', '2.13.1'
+	gem 'guard-rspec', '2.5.0'
+	gem 'spork-rails', github: 'railstutorial/spork-rails'
+	gem 'guard-spork', '1.5.0'
 end
 
 group :test do
